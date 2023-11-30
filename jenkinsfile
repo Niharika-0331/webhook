@@ -11,7 +11,7 @@ pipeline{
           echo 'building the binary'
 }
 }
- stage('deploy') {
+ stage('deploying binaries') {
             steps {
           echo 'deploying the binary'
 }
