@@ -9,6 +9,7 @@ pipeline{
  stage('build') {
             steps {
           echo 'building the binary'
+          echo 'building the binaries'
 }
 }
  stage('deploy') {
